@@ -1,22 +1,22 @@
 <!doctype html>
 <html>
 	<head>
-	
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-	
+
 	<title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
-	
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-	
+
 	<style type="text/css">
 	{{{css}}}
 	</style>
-	
+
 	</head>
 	<body>
-	
+
 	<header id="header">
 		<div class="container">
 			<div class="row">
@@ -207,7 +207,7 @@
 		</div>
 	</section>
 	{{/if}}
-	
+
 	{{#if resume.education.length}}
 	<section id="education" class="row">
 		<aside class="col-sm-3">
@@ -247,7 +247,7 @@
 		</div>
 	</section>
 	{{/if}}
-	
+
 	{{#if resume.awards.length}}
 	<section id="awards" class="row">
 		<aside class="col-sm-3">
@@ -283,7 +283,7 @@
 		</div>
 	</section>
 	{{/if}}
-	
+
 	{{#if resume.publications.length}}
 	<section id="publications" class="row">
 		<aside class="col-sm-3">
@@ -321,7 +321,7 @@
 		</div>
 	</section>
 	{{/if}}
-	
+
 	{{#if resume.skills.length}}
 	<section id="skills" class="row">
 		<aside class="col-sm-3">
@@ -403,7 +403,7 @@
 		</div>
 	</section>
 	{{/if}}
-	
+
 	{{#if resume.references.length}}
 	<section id="references" class="row">
 		<aside class="col-sm-3">
@@ -431,6 +431,6 @@
 	{{/if}}
 
 	</div>
-	
+
 	</body>
 </html>

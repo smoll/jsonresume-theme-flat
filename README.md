@@ -1,6 +1,15 @@
-## Preview
+## wutdis
 
-The theme can be previewed at http://themes.jsonresume.org/flat
+This is a fork of https://github.com/erming/jsonresume-theme-flat with slight tweaks:
+
+* slightly more human-readable dates
+
+## Local Testing
+
+```
+yarn
+yarn start
+```
 
 ## License
 
